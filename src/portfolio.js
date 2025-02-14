@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/mhessari",
   linkedin: "https://www.linkedin.com/in/max-hessari/",
-  gmail: "matt.mirh@gmail.com",
+  gmail: "max.hessari@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@maxhesss",
@@ -49,15 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "ENTHUSIAST SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "ENTHUSIAST SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Frontend / User Interfaces for web and mobile applications"
     ),
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as AWS"
-    )
+    emoji("⚡ Integration of third party services such as AWS")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -130,7 +129,7 @@ const educationInfo = {
       logo: require("./assets/images/essecLogo.png"),
       subHeader: "Master of Science in Management",
       duration: "September 2014 - February 2016",
-      desc: "•	Received merit-based scholarship admission from Total Energies",
+      desc: "•	Received merit-based scholarship admission from Total Energies"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -142,8 +141,10 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Engineering",
       duration: "September 2010 - July 2014",
       // desc: "Ranked first in cumulative GPA. \n Took courses about Software Engineering, Mathematics, Numerical Methods, ...",
-      descBullets: ["Ranked first in cumulative GPA",
-                    "Took courses about Software Engineering, Mathematics & Numerical Methods"]
+      descBullets: [
+        "Ranked first in cumulative GPA",
+        "Took courses about Software Engineering, Mathematics & Numerical Methods"
+      ]
     }
   ]
 };
@@ -175,35 +176,25 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Self-Improvement",
-      company: "Career Break",
-      companylogo: require("./assets/images/self.png"),
-      date: "July 2023 – Present",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Engaged in rigorous software development training",
-        "AWS Certified Cloud Practitioner (Dec. 2023)",
-        "AWS Certified Solutions Architect Associate (Expected Feb. 2024)"
-      ]
-    },
-    {
       role: "Financial/Investment Analyst",
       company: "Various Companies",
       companylogo: require("./assets/images/financeLogo.png"),
-      date: "March 2016 – June 2023",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      descBullets: [
-        "Proven financial expertise through roles at Canadian Imperial Bank of Commerce (CIBC), PGPIC, NIOC, and Total Energies",
-        "Developed financial models, conducted equity research, and contributed to investment decisions",
-        "Collaborated with cross-functional teams, prepared top-notch reports, and built strong client relationships"
-      ]
+      date: "Jan 2016 – Feb 2022",
+      descBullets: []
     },
     {
-      role: "Investment Analyst Intern",
-      company: "TotalEnergies",
-      companylogo: require("./assets/images/totalLogo.png"),
-      date: "September 2015 – January 2016",
-      desc: "Developed financial models and contributed to investment decisions"
+      role: "DevOps Engineer",
+      company: "Self-Employed",
+      companylogo: require("./assets/images/self.png"),
+      date: "Sep 2022 – Feb 2024",
+      descBullets: [""]
+    },
+    {
+      role: "DevOps Engineer",
+      company: "ShyftLabs",
+      companylogo: require("./assets/images/shyftlabs.png"),
+      date: "Mar 2024 – Present",
+      desc: ""
     }
   ]
 };
@@ -225,7 +216,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "The Battle of the Neighborhoods",
-      projectDesc: "Which neighborhood in Toronto is more suitable for me to move to, after getting a new job?",
+      projectDesc:
+        "Which neighborhood in Toronto is more suitable for me to move to, after getting a new job?",
       footerLink: [
         {
           name: "Github Repo",
@@ -260,8 +252,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Certified Cloud Practitioner",
-      subtitle:
-        "Issued on December 2023",
+      subtitle: "Issued on December 2023",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -281,8 +272,7 @@ const achievementSection = {
     },
     {
       title: "AWS Solutions Architect Associate",
-      subtitle:
-        "Expected on February 2024",
+      subtitle: "Expected on March 2025",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -372,7 +362,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me!"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open for all."
 };
 
 // Twitter Section
